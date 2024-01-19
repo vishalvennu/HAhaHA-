@@ -1,0 +1,6 @@
+Recursion in 2 creates a new sublist everytime it calls the function again. This will imply that there is new memory being allocated for that sublist and everytime it creates the sublist it is half of the original list. Hence; it's space complexity is logarithmic (log n) = runtime complexity.
+
+In both 1 and 2, we used list as the datastructure.
+And there is a precondition that that list is sorted for binary search to work.
+Sorting different datastructures is different.
+Alogrithms are implemented differently based on the datastructures used. Change in runtime complexity, memory complexity are the effects that can be expected.

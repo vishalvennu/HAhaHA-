@@ -1,0 +1,20 @@
+Arrays are fundamental data strutures.
+Arrays are also used as building blocks in building more complicated data structures.
+In most programming languages text is stored in a string. Underneath the string characters are stored sequentially in an array.
+In languages like Swift and Java Arrays are homogeneous. Only one kind of data type in one array.
+In languages like Python Arrays (called lists) are heterogeneous. 
+Arrays are contiguous in the manner they store their data. (Unlike Linked Lists - for later)
+
+Python's lists since heterogeneous actually stores the pointers in a contiguous manner where the pointers point to the data at that index in a different part of the memory. 
+
+Operations on Data structures:
+    1. Access and Read values.
+    2. Search value.
+    3. Insert value.
+    4. Delete value.
+
+When performing the above operations on arrays:
+1. Access and Reading values with an index like nums[i] has constant time.
+2. Searching for a value has a linear time. O(n) incase of linear search. For binary search you need the array to be a sorted one.
+3. Inserting the value is more expensive than appending the value. Insert will insert at any index in the array; meaning you have to shift all the indexes of the values to the right one by one. Whereas appending is just attaching the value in the end of the array making it less expensive.
+4. Deleting a value is as expensive as inserting a value since you have to shift values indexes that are on the RHS.
