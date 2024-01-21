@@ -37,8 +37,10 @@ def merge(left, right) -> list:
     return result
 
 nums = [5,4,3,2,4,5,6,3,1,2,6,6,8,3]
-
-print(merge_sort(nums))
+print(len(nums))
+x = merge_sort(nums)
+print(x)
+print(len(x))
     
 
     

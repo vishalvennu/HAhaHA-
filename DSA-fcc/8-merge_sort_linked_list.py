@@ -13,6 +13,8 @@ def merge_sort(nums):
 
 def split(nums) -> [list, list]:
     mid = nums.length//2
+
+    
     return nums[:mid], nums[mid:]
 
 def merge(left, right) -> list:

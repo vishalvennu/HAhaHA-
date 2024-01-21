@@ -43,7 +43,7 @@ class linkedList:
         current.nextnode = new_node
         new_node.nextnode = temp
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         current = self.head
 
         while current:
