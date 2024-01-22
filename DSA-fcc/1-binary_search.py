@@ -9,7 +9,7 @@ def binary_search(list, target):
         midpoint = (min+max)//2 # need to calculate midpoint everytime after min or max changes
         if list[midpoint] == target:
             return midpoint 
-        elif list[midpoint] <= target:
+        elif list[midpoint] < target:
             min = midpoint+1
         else:
             max = midpoint-1
