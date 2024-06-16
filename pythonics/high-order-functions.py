@@ -8,7 +8,7 @@ add_10 = create_adder(10)
 # There are built-in higher order functions
 list(map(add_10, [1, 2, 3]))          # => [11, 12, 13]
 
-print(list(map(max, [1, 2, 3], [4, 2, 1], [6, 9, 1])))  # => [4, 2, 3]
+print(list(map(max, [1, 2, 3], [4, 2, 1], [6, 9, 1])))  # => [6, 9, 3]
 
 list(filter(lambda x: x > 5, [3, 4, 5, 6, 7]))  # => [6, 7]
 
